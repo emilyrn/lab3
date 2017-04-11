@@ -1,0 +1,176 @@
+body {
+  background-image: url(http://webhomes.com/images/what-we-do/webhomes-what-we-do-cloud-computing.jpg);
+  background-size: cover;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(162,240, 253, 0.3);
+
+  }
+li {
+    float: left
+  }
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-family: "Meatloaf";
+  font-size: 40px
+}
+
+li a:hover {
+  background-color: #A2F0FD;
+  color: white;
+  }
+
+div p {
+  text-align: center;
+  font-family: "Meatloaf";
+  font-size: 150px;
+  color: white;
+}
+
+p#about{
+  font-family: "Meatline";
+  font-size: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-top: auto;
+  color: white;
+  background-color: rgba(162,240, 253, 0.3);
+}
+
+p#resume{
+  font-family: "Meatline";
+  font-size: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: auto;
+  color: white;
+  background-color: rgba(162,240, 253, 0.3);
+  text-align: center;
+}
+
+h4{
+  font-family: "Meatloaf";
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Meatloaf";
+  src: url("Meatloaf.ttf");
+
+}
+
+@font-face {
+  font-family: "Meatline";
+  src: url("MeatloafOutline.ttf");
+}
+
+@font-face {
+  font-family:"Georgina";
+  src: url("GeorginaLight.ttf");
+}
+
+h3 {
+  font-family: "Meatloaf";
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  padding-bottom: 0px;
+
+}
+
+p.allproj {
+  font-size: 40px;
+  text-align: left;
+  width: 270px;
+  font-family: "Georgina"
+
+}
+
+img.flowers {
+  height: 240px;
+  width: 240px;
+  opacity: .75
+}
+
+.floatingbox1 {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 120px;
+    text-align: right;
+    margin-top: 30px;
+    line-height: 97%
+
+}
+.floatingbox2 {
+  display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 120px;
+  text-align: right;
+  margin-top: 50px;
+  line-height: 97%
+
+}
+
+.floatingbox3 {
+  display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 120px;
+  text-align: right;
+  margin-top: 50px;
+  line-height: 97%
+}
+
+body#clouds2 {
+  background-image: url(http://webhomes.com/images/what-we-do/webhomes-what-we-do-cloud-computing.jpg);
+  background-size: contain;
+}
+
+@media (max-width: 400px)  {
+body#clouds2{
+  background-image: url(https://0.s3.envato.com/files/207112533/Untitled-2.jpg);
+  background-size: contain;
+}
+}
+
+@media (max-width: 400px) {
+  body {
+    background-image: url(https://0.s3.envato.com/files/207112533/Untitled-2.jpg);
+    background-size: contain;
+  }
+}
+
+@media (max-width: 1101px) {
+  img.flowers {
+    display: none;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 1100px) {
+  body {
+    background-image: url(https://andrewsteele.co.uk/photography/50491938/storm-clearing-50491938.jpg);
+    background-size: contain;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 1100px) {
+  body#clouds2 {
+    background-image: url(https://andrewsteele.co.uk/photography/50491938/storm-clearing-50491938.jpg);
+    background-size: auto;
+  }
+}
